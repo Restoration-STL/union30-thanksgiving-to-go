@@ -158,8 +158,11 @@ and meet contrast. `prefers-reduced-motion` turns off the reveals and hover lift
 
 ---
 
-## Known limitation
+## Link previews
 
-`<meta property="og:image">` points at a **relative** path. Social platforms need an absolute URL,
-so link previews won't show the hero image until the tag is updated to the page's published
-address.
+`og:url` and `og:image` in the `<head>` are **absolute** URLs on the live domain,
+`https://thanksgiving.hotelsaintlouis.com/`. Social platforms won't resolve a relative `og:image`,
+so a relative path means a link preview with no picture.
+
+⚠️ **If the page ever moves to a different address, update both tags.** They won't break visibly —
+the page still loads fine — the previews just quietly lose their image.
