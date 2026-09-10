@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thanksgiving To-Go | Union 30 at Hotel Saint Louis</title>
+<meta name="description" content="A complete Thanksgiving meal from Union 30, ready to heat and serve. Pickup Wednesday, November 25. Order by 5 PM Friday, November 20.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Thanksgiving To-Go | Union 30 at Hotel Saint Louis">
+<meta property="og:description" content="A complete Thanksgiving meal from Union 30, ready to heat and serve. Pickup Wednesday, November 25. Order by 5 PM Friday, November 20.">
+<meta property="og:image" content="assets/img/hero-glazed-ham.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1E355E">
+<link rel="icon" href="assets/logo/union30-round-navy.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   Union 30 · Hotel Saint Louis — Thanksgiving To-Go 2026
+   Palette: Union 30 brand colours — navy #1E355E, gold #DAAB28, cream #FBF6EB
+   Type: Anton (display) + Poppins (body) — both SIL OFL
+   ============================================================ */
+:root{
+  --navy:#1E355E;
+  --navy-deep:#152744;
+  --navy-ink:#0E1B31;
+  --gold:#DAAB28;
+  --gold-soft:#E8C769;
+  --bronze:#86764E;
+  --bronze-lt:#B5A268;
+  --cream:#FBF6EB;
+  --cream-dk:#EFE8D4;
+  --cream-line:#E2D8C0;
+  --ink:#2D2A26;
+  --warm:#686158;
+  --white:#fff;
+  --shadow-sm:0 1px 2px rgba(30,53,94,.06), 0 2px 8px rgba(30,53,94,.05);
+  --shadow-md:0 4px 12px rgba(30,53,94,.08), 0 12px 32px rgba(30,53,94,.08);
+  --shadow-lg:0 8px 24px rgba(14,27,49,.14), 0 30px 60px rgba(14,27,49,.16);
+  --r:14px;
+  --ease:cubic-bezier(.4,0,.2,1);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  font-size:16.5px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 22px}
+.wrap-narrow{max-width:900px}
+
+/* ---------- shared type ---------- */
+.display{
+  font-family:'Anton',Impact,'Arial Narrow',sans-serif;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:.005em;
+  line-height:1;
+}
+.eyebrow{
+  font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+  font-weight:600;color:var(--gold);
+}
+.tnum{font-variant-numeric:tabular-nums}
+
+/* deco lattice — echoes the coffered ceiling / deco screens in the room */
+.lattice{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23DAAB28' stroke-width='1' opacity='.5'%3E%3Cpath d='M28 2 46 20 46 36 28 54 10 36 10 20Z'/%3E%3Cpath d='M28 14 38 24 38 32 28 42 18 32 18 24Z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+header{
+  background:var(--navy);
+  position:sticky;top:0;z-index:60;
+  border-bottom:1px solid rgba(218,171,40,.28);
+}
+header .wrap{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:18px;padding-top:13px;padding-bottom:13px;
+}
+.brand{display:flex;align-items:center;gap:15px;min-width:0}
+.brand .mark{width:132px;height:33px;flex:none}
+.brand .divider{width:1px;height:31px;background:rgba(218,171,40,.55);flex:none}
+.brand .at{
+  font-size:9.5px;letter-spacing:.19em;text-transform:uppercase;
+  color:var(--gold-soft);font-weight:600;line-height:1.4;white-space:nowrap;
+}
+.brand .at b{display:block;color:#fff;font-size:11px;letter-spacing:.15em;font-weight:600}
+.tel{
+  color:#fff;text-decoration:none;font-weight:500;font-size:15px;
+  white-space:nowrap;display:inline-flex;align-items:center;gap:8px;
+  padding:8px 15px;border:1px solid rgba(255,255,255,.28);border-radius:100px;
+  transition:background .18s var(--ease), border-color .18s var(--ease), color .18s var(--ease);
+}
+.tel:hover{background:var(--gold);border-color:var(--gold);color:var(--navy-ink)}
+.tel svg{width:14px;height:14px;flex:none}
+.tel .lbl{display:inline}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  position:relative;
+  background:var(--navy-deep);
+  color:#fff;
+  overflow:hidden;
+  isolation:isolate;
+}
+.hero::before{
+  content:'';position:absolute;inset:0;z-index:-2;
+  background:url('assets/img/union30-dining-room.jpg') center 38%/cover no-repeat;
+  opacity:.20;filter:saturate(.65);
+}
+.hero::after{
+  content:'';position:absolute;inset:0;z-index:-1;
+  background:
+    radial-gradient(120% 90% at 12% 8%, rgba(30,53,94,.55) 0%, rgba(21,39,68,.94) 58%, #152744 100%),
+    linear-gradient(180deg, rgba(14,27,49,.30) 0%, rgba(21,39,68,.86) 100%);
+}
+.hero-inner{
+  display:grid;grid-template-columns:1.12fr .88fr;gap:52px;align-items:center;
+  padding:64px 0 66px;position:relative;
+}
+/* the round badge is fine line art — it only reads at size, so it lives here, big */
+.hero-inner > div,
+.hero-inner > figure{position:relative;z-index:1}
+.hero-inner > img.hero-badge{
+  position:absolute;left:-186px;bottom:-40px;width:250px;height:auto;
+  opacity:.09;pointer-events:none;z-index:0;
+}
+@media (max-width:1180px){ .hero-inner > img.hero-badge{display:none} }
+.hero .eyebrow{display:flex;align-items:center;gap:11px;color:var(--gold)}
+.hero .eyebrow::after{content:'';height:1px;flex:1;max-width:88px;background:linear-gradient(90deg,var(--gold),transparent)}
+.hero h1{
+  font-size:clamp(46px,7.4vw,86px);
+  margin:16px 0 0;color:#fff;
+  text-shadow:0 2px 24px rgba(14,27,49,.5);
+}
+.hero h1 .thin{display:block;color:var(--gold);font-size:.52em;letter-spacing:.03em;margin-top:12px}
+.hero .lede{
+  margin-top:20px;max-width:50ch;font-size:17px;line-height:1.7;
+  color:rgba(255,255,255,.9);font-weight:300;
+}
+.hero .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+
+.btn-gold{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--gold);color:var(--navy-ink);
+  font-weight:600;font-size:15.5px;text-decoration:none;
+  padding:14px 26px;border-radius:100px;border:0;cursor:pointer;
+  box-shadow:0 4px 16px rgba(218,171,40,.34);
+  transition:transform .16s var(--ease), box-shadow .16s var(--ease), background .16s var(--ease);
+}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(218,171,40,.44);background:var(--gold-soft)}
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:9px;
+  color:#fff;text-decoration:none;font-weight:500;font-size:15.5px;
+  padding:14px 24px;border-radius:100px;border:1px solid rgba(255,255,255,.32);
+  transition:background .16s var(--ease),border-color .16s var(--ease);
+}
+.btn-ghost:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.55)}
+
+/* hero photo */
+.hero-photo{position:relative}
+.hero-photo .frame{
+  position:relative;border-radius:var(--r);overflow:hidden;
+  box-shadow:var(--shadow-lg);
+  border:1px solid rgba(218,171,40,.35);
+  aspect-ratio:1/.92;
+}
+.hero-photo .frame img{width:100%;height:100%;object-fit:cover}
+.hero-photo .frame::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(14,27,49,0) 52%,rgba(14,27,49,.72) 100%);
+}
+.hero-photo figcaption{
+  position:absolute;left:0;right:0;bottom:0;padding:16px 18px;z-index:2;
+  font-size:12.5px;letter-spacing:.02em;color:rgba(255,255,255,.94);font-weight:500;
+}
+.hero-photo figcaption span{display:block;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:3px;font-weight:600}
+.hero-photo .ribbon{
+  position:absolute;top:-14px;right:-10px;z-index:3;
+  background:var(--gold);color:var(--navy-ink);
+  font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:.06em;
+  font-size:13px;padding:9px 17px;border-radius:100px;
+  box-shadow:0 6px 18px rgba(14,27,49,.35);
+}
+
+/* key dates */
+.keydates-band{
+  border-top:1px solid rgba(218,171,40,.3);
+  background:rgba(14,27,49,.42);
+  backdrop-filter:blur(2px);
+}
+.keydates{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  padding-left:0;padding-right:0;
+}
+.keydates > div{
+  padding:22px 24px;border-right:1px solid rgba(255,255,255,.11);
+}
+.keydates > div:first-child{padding-left:22px}
+.keydates > div:last-child{border-right:0}
+.keydates .k{
+  font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);font-weight:600;display:flex;align-items:center;gap:8px;
+}
+.keydates .k svg{width:13px;height:13px;flex:none}
+.keydates .v{color:#fff;font-weight:600;font-size:16.5px;margin-top:7px;line-height:1.35}
+.keydates .v small{display:block;font-weight:400;font-size:13.5px;color:rgba(255,255,255,.72);margin-top:2px}
+
+/* ============================================================
+   SECTIONS
+   ============================================================ */
+section{padding:74px 0}
+.sec-head{margin-bottom:34px;max-width:64ch}
+.sec-head h2{
+  font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(27px,4vw,38px);line-height:1.06;letter-spacing:.01em;
+  color:var(--navy);margin-top:9px;
+}
+.sec-head p{color:var(--warm);margin-top:12px;font-size:16px;max-width:58ch}
+.rule{height:1px;background:linear-gradient(90deg,var(--cream-line),transparent);margin:0}
+
+/* ---------- order section: size + menu + dessert, one flow ---------- */
+.order{background:var(--cream);position:relative}
+.order::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--gold) 0%,var(--bronze-lt) 40%,transparent 100%);
+}
+.order .wrap{max-width:1000px}
+
+/* step header: gold numeral + Anton title on the left, helper text on the right */
+.step-head{
+  display:flex;align-items:baseline;justify-content:space-between;gap:24px;
+  flex-wrap:wrap;margin-bottom:26px;
+}
+.step-head .lhs{display:flex;align-items:center;gap:13px}
+.step-head .num{
+  width:32px;height:32px;border-radius:50%;background:var(--gold);color:var(--navy-ink);
+  display:grid;place-items:center;font-weight:700;font-size:16px;flex:none;
+}
+.step-head h2{
+  font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(24px,3.4vw,31px);line-height:1.04;letter-spacing:.015em;color:var(--navy);
+}
+.step-head .hint{color:var(--warm);font-size:15px}
+
+/* Supporting copy, deliberately not a banner or an alert — it states a date that is
+   already elsewhere on the page and makes no claim about stock or early closure. */
+.order-early{
+  margin:-10px 0 24px;
+  font-size:15.5px;line-height:1.6;color:var(--warm);max-width:62ch;
+}
+.order-early strong{color:var(--navy);font-weight:600}
+
+/* ---------- size cards ---------- */
+.pkg-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.opt-card{
+  position:relative;background:#fff;border:2px solid var(--cream-line);
+  border-radius:var(--r);padding:24px 16px 22px;cursor:pointer;text-align:center;
+  transition:border-color .18s var(--ease), transform .18s var(--ease), box-shadow .18s var(--ease), background .18s var(--ease);
+  box-shadow:var(--shadow-sm);
+  font:inherit;color:inherit;width:100%;display:block;
+}
+.opt-card:hover{border-color:var(--bronze-lt);transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.opt-card .tick{
+  position:absolute;top:12px;right:12px;width:23px;height:23px;border-radius:50%;
+  background:var(--gold);color:var(--navy-ink);display:grid;place-items:center;
+  opacity:0;transform:scale(.5);transition:all .2s var(--ease);
+}
+.opt-card .tick svg{width:12px;height:12px}
+.opt-card[aria-checked="true"]{
+  border-color:var(--gold);background:var(--navy);box-shadow:0 6px 22px rgba(30,53,94,.26);
+}
+.opt-card[aria-checked="true"] .tick{opacity:1;transform:scale(1)}
+
+.pkg-lbl{
+  display:block;font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--warm);font-weight:600;transition:color .18s var(--ease);
+}
+.pkg-num{
+  display:block;font-family:'Anton',sans-serif;font-size:clamp(40px,5.4vw,52px);
+  line-height:.92;color:var(--navy);margin:6px 0 4px;transition:color .18s var(--ease);
+}
+.pkg-price{
+  display:block;font-family:'Anton',sans-serif;font-size:clamp(26px,3.4vw,33px);
+  line-height:1;color:var(--gold);margin-top:14px;transition:color .18s var(--ease);
+}
+.pkg-per{
+  display:block;font-size:12.5px;color:var(--warm);margin-top:5px;
+  transition:color .18s var(--ease);
+}
+.opt-card[aria-checked="true"] .pkg-lbl{color:var(--gold-soft)}
+.opt-card[aria-checked="true"] .pkg-num{color:#fff}
+.opt-card[aria-checked="true"] .pkg-price{color:var(--gold)}
+.opt-card[aria-checked="true"] .pkg-per{color:rgba(255,255,255,.72)}
+
+/* the "more than 10" line that sits under the cards */
+.bigger-party{
+  text-align:center;margin-top:20px;font-size:15.5px;color:var(--warm);
+}
+.bigger-party a{color:var(--navy);font-weight:600;text-decoration:none;border-bottom:1px solid var(--gold)}
+.bigger-party a:hover{background:rgba(218,171,40,.14)}
+
+/* ---------- included box (gold outline, legend on the border) ---------- */
+.included{
+  position:relative;margin-top:36px;
+  border:1px solid var(--gold);border-radius:var(--r);
+  padding:38px 34px 30px;
+}
+.included legend, .included .legend{
+  position:absolute;top:0;left:50%;transform:translate(-50%,-50%);
+  background:var(--cream);padding:0 16px;white-space:nowrap;
+  font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--bronze);font-weight:700;
+}
+.course{
+  font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--bronze);font-weight:700;margin:22px 0 7px;
+}
+.course:first-of-type{margin-top:0}
+.dish{font-weight:600;color:var(--navy);font-size:17px;line-height:1.35}
+.dish + .desc{margin-top:2px}
+.desc{color:var(--warm);font-size:14.5px;line-height:1.55}
+.dish-block + .dish-block{margin-top:11px}
+.sides-cols{
+  columns:2;column-gap:38px;margin-top:2px;
+  list-style:none;font-size:15.5px;color:var(--ink);line-height:1.95;
+}
+.sides-cols li{break-inside:avoid}
+
+/* ---------- dessert buttons ---------- */
+.pie-row{display:flex;align-items:center;gap:20px}
+.pie-btn{
+  flex:1;position:relative;cursor:pointer;font:inherit;
+  background:var(--navy);border:2px solid var(--navy);border-radius:var(--r);
+  padding:24px 20px;text-align:center;
+  font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:.04em;
+  font-size:clamp(20px,2.8vw,27px);line-height:1;color:#fff;
+  box-shadow:var(--shadow-sm);
+  transition:background .18s var(--ease), color .18s var(--ease), border-color .18s var(--ease), transform .18s var(--ease), box-shadow .18s var(--ease);
+}
+.pie-btn:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:var(--gold)}
+.pie-btn .tick{
+  position:absolute;top:12px;right:12px;width:24px;height:24px;border-radius:50%;
+  background:var(--navy);color:var(--gold);display:grid;place-items:center;
+  opacity:0;transform:scale(.5);transition:all .2s var(--ease);
+}
+.pie-btn .tick svg{width:13px;height:13px}
+.pie-btn[aria-checked="true"]{
+  background:var(--gold);border-color:var(--gold);color:var(--navy-ink);
+  box-shadow:0 6px 22px rgba(218,171,40,.36);
+}
+.pie-btn[aria-checked="true"] .tick{opacity:1;transform:scale(1)}
+.pie-or{
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--bronze);font-weight:700;flex:none;
+}
+
+/* reveal */
+.reveal{
+  opacity:0;transform:translateY(14px);
+  max-height:0;overflow:hidden;
+  transition:opacity .42s var(--ease), transform .42s var(--ease);
+  padding-top:0;padding-bottom:0;
+}
+.reveal.on{opacity:1;transform:none;max-height:none;overflow:visible;padding-top:74px;padding-bottom:74px}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{transition:none}
+  .opt-card:hover,.pie-btn:hover,.btn-gold:hover{transform:none}
+}
+
+/* ---------- summary ---------- */
+.summary{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.summary::before{
+  content:'';position:absolute;inset:0;opacity:.055;background-size:56px;
+}
+.summary .wrap{position:relative;z-index:1}
+.summary .sec-head h2{color:#fff}
+.summary .sec-head p{color:rgba(255,255,255,.72)}
+.receipt{
+  background:var(--cream);color:var(--ink);border-radius:var(--r);
+  max-width:620px;box-shadow:var(--shadow-lg);overflow:hidden;
+}
+.receipt-top{
+  background:var(--cream-dk);padding:18px 28px;border-bottom:2px dashed var(--cream-line);
+  display:flex;align-items:center;gap:12px;
+}
+.receipt-top img{width:46px;height:auto;flex:none;opacity:.92}
+.receipt-top div{
+  font-family:'Anton',sans-serif;text-transform:uppercase;font-size:16px;
+  letter-spacing:.05em;color:var(--navy);line-height:1.3;
+}
+.receipt-top div span{color:var(--bronze);font-size:13px;letter-spacing:.13em}
+.receipt-body{padding:8px 28px 4px}
+.rrow{
+  display:flex;justify-content:space-between;align-items:baseline;gap:20px;
+  padding:14px 0;border-bottom:1px solid var(--cream-line);
+}
+.rrow .rk{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--warm);font-weight:600;flex:none}
+.rrow .rv{text-align:right;font-weight:500;color:var(--navy);font-size:15.5px;line-height:1.4}
+.rrow .rv small{display:block;font-weight:400;font-size:13px;color:var(--warm)}
+.rtotal{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:20px 28px;background:var(--navy);color:#fff;
+}
+.rtotal .rk{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.rtotal .rv{font-family:'Anton',sans-serif;font-size:36px;line-height:1;color:#fff}
+.nofees{
+  display:flex;align-items:center;gap:9px;justify-content:center;
+  padding:12px 28px;background:var(--cream-dk);
+  font-size:13px;color:#2F6B45;font-weight:500;
+}
+.nofees svg{width:15px;height:15px;flex:none}
+
+.checkout-zone{max-width:620px;margin-top:22px}
+#checkout{
+  width:100%;justify-content:center;font-size:17px;padding:17px 28px;
+}
+#checkout[disabled]{
+  background:rgba(255,255,255,.14);color:rgba(255,255,255,.55);
+  box-shadow:none;cursor:not-allowed;transform:none;
+  border:1px solid rgba(255,255,255,.18);
+}
+.checkout-note{
+  margin-top:12px;font-size:13.5px;color:rgba(255,255,255,.66);text-align:center;
+}
+
+/* ---------- large parties ---------- */
+.parties{background:var(--cream-dk)}
+.parties-card{
+  background:#fff;border:1px solid var(--cream-line);border-radius:var(--r);
+  padding:34px 38px;display:flex;align-items:center;justify-content:space-between;
+  gap:28px;flex-wrap:wrap;box-shadow:var(--shadow-sm);
+  border-left:4px solid var(--gold);
+}
+.parties-card h3{
+  font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:26px;color:var(--navy);letter-spacing:.02em;
+}
+.parties-card p{color:var(--warm);margin-top:7px;max-width:46ch;font-size:15.5px}
+.btn-navy{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--navy);color:#fff;font-weight:600;font-size:15.5px;
+  text-decoration:none;padding:15px 28px;border-radius:100px;flex:none;
+  transition:background .16s var(--ease),transform .16s var(--ease);
+}
+.btn-navy:hover{background:var(--navy-deep);transform:translateY(-2px)}
+.btn-navy svg{width:15px;height:15px}
+
+/* ---------- room band ---------- */
+.roomband{position:relative;overflow:hidden;background:var(--navy-deep)}
+.roomband img{
+  width:100%;height:auto;aspect-ratio:21/8;object-fit:cover;
+  object-position:center 42%;opacity:.62;
+}
+.roomband figcaption{
+  position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:0 22px 56px;max-width:1080px;margin:0 auto;left:0;right:0;
+  color:rgba(255,255,255,.94);font-size:clamp(19px,2.4vw,29px);font-weight:300;
+  background:linear-gradient(180deg,rgba(21,39,68,.42) 0%,rgba(14,27,49,.04) 34%,rgba(14,27,49,.88) 100%);
+}
+.roomband figcaption .eyebrow{font-size:clamp(15px,1.9vw,23px);letter-spacing:.26em}
+.roomband figcaption strong{
+  display:block;font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(36px,6.4vw,78px);letter-spacing:.015em;line-height:1;
+  margin:18px 0 14px;color:#fff;
+}
+/* the headline is a deliberate two-line lockup; on phones it needs a third line,
+   otherwise "Louis" wraps on its own. Hidden, the <br> leaves its space behind. */
+.roomband .sm-brk{display:none}
+@media (max-width:680px){ .roomband .sm-brk{display:inline} }
+@media (max-width:680px){ .roomband img{aspect-ratio:4/3} }
+
+/* ---------- pickup ---------- */
+#pickup{background:var(--cream-dk)}
+#pickup .sec-head{margin-bottom:38px}
+#pickup .sec-head .eyebrow{font-size:13px}
+#pickup .sec-head h2{font-size:clamp(32px,5vw,48px)}
+
+/* A 6-track grid so five cards still divide evenly: three thirds, then two halves. */
+.pickup-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+.pickup-grid > div{
+  background:#fff;padding:30px 28px;border-radius:var(--r);
+  border:1px solid var(--cream-line);box-shadow:var(--shadow-sm);
+}
+.pickup-grid > div:nth-child(-n+3){grid-column:span 2}
+.pickup-grid > div:nth-child(n+4){grid-column:span 3}
+@media (max-width:1020px){
+  .pickup-grid > div:nth-child(-n+4){grid-column:span 3}
+  .pickup-grid > div:nth-child(5){grid-column:span 6}
+}
+@media (max-width:620px){
+  .pickup-grid{gap:14px}
+  .pickup-grid > div{grid-column:span 6 !important;padding:24px 22px}
+}
+.pickup-grid .k{
+  font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--bronze);
+  font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:12px;
+}
+.pickup-grid .k .ico{
+  width:38px;height:38px;border-radius:50%;flex:none;
+  background:rgba(218,171,40,.18);color:var(--bronze);
+  display:grid;place-items:center;
+}
+.pickup-grid .k svg{width:19px;height:19px}
+/* balance keeps "Wednesday, November 25" from orphaning the 25 onto its own line */
+.pickup-grid .v{color:var(--navy);font-weight:600;font-size:clamp(19px,2.1vw,23px);line-height:1.3;text-wrap:balance}
+.pickup-grid .v small{display:block;font-weight:400;color:var(--warm);font-size:clamp(15px,1.6vw,17px);margin-top:7px;line-height:1.45}
+.pickup-grid .v a{color:var(--navy);text-decoration:none;border-bottom:2px solid var(--gold)}
+.pickup-grid .v a:hover{background:rgba(218,171,40,.16)}
+
+/* ---------- footer ---------- */
+footer{background:var(--navy-ink);color:rgba(255,255,255,.78);padding:46px 0 40px;font-size:14.5px}
+footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap}
+footer .fbrand{display:flex;align-items:center;gap:18px}
+footer .fbrand > img{width:76px;height:auto;flex:none;opacity:.9}
+footer .fsub{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-top:7px}
+footer .fmeta{text-align:right;line-height:1.8}
+footer a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(218,171,40,.5)}
+footer a:hover{border-bottom-color:var(--gold)}
+
+/* visually hidden */
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width:960px){
+  .hero-inner{grid-template-columns:1fr;gap:38px;padding:52px 0 54px}
+  .hero-photo{max-width:460px}
+  .hero-photo .ribbon{right:auto;left:-6px}
+  .pkg-grid{grid-template-columns:repeat(2,1fr)}
+  .step-head{margin-bottom:22px}
+}
+@media (max-width:680px){
+  body{font-size:16px}
+  section{padding:54px 0}
+  .reveal.on{padding-top:54px;padding-bottom:54px}
+  .wrap{padding:0 18px}
+  .tel .lbl{display:none}
+  .tel{padding:9px 13px}
+  .keydates{grid-template-columns:1fr}
+  .keydates > div{border-right:0;border-bottom:1px solid rgba(255,255,255,.11);padding:16px 20px}
+  .keydates > div:last-child{border-bottom:0}
+  .hero-photo{max-width:none}
+  .pkg-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .opt-card{padding:20px 12px 18px}
+  .step-head{gap:6px}
+  .step-head .hint{font-size:14px}
+  .included{padding:34px 20px 26px}
+  .included .legend{
+    white-space:normal;text-align:center;width:min(100%,20rem);
+    letter-spacing:.16em;line-height:1.5;
+  }
+  .sides-cols{columns:1;line-height:1.85}
+  .pie-row{flex-direction:column;gap:12px}
+  .pie-btn{width:100%;padding:20px 16px}
+  .parties-card{padding:26px 24px}
+  .btn-navy,.btn-gold{width:100%;justify-content:center}
+  .receipt-body{padding:6px 20px 4px}
+  .rtotal{padding:18px 20px}
+  .rtotal .rv{font-size:30px}
+  .rrow{flex-direction:column;gap:3px}
+  .rrow .rv{text-align:left}
+  footer .wrap{flex-direction:column;align-items:flex-start}
+  footer .fmeta{text-align:left}
+}
+</style>
+</head>
+<body>
+
+<!-- ========================= HEADER ========================= -->
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <img class="mark" src="assets/logo/union30-wordmark-white.svg" alt="Union 30 Restaurant" width="132" height="33">
+      <span class="divider" aria-hidden="true"></span>
+      <span class="at">at<b>Hotel Saint Louis</b></span>
+    </div>
+    <a class="tel" href="tel:+13142414300">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span class="lbl">(314) 241-4300</span>
+    </a>
+  </div>
+</header>
+
+<!-- ========================= HERO ========================= -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-inner">
+      <img class="hero-badge" src="assets/logo/union30-round-gold.svg" alt="" aria-hidden="true">
+      <div>
+        <div class="eyebrow">Union 30 · Hotel Saint Louis</div>
+        <h1 class="display">Thanksgiving<span class="thin">To-Go</span></h1>
+        <p class="lede">
+          A complete Thanksgiving meal from Union 30 — ready to heat, serve, and enjoy at home.
+          We do the cooking so you can spend the holiday at the table instead of the stove.
+        </p>
+        <div class="cta-row">
+          <a class="btn-gold" href="#step1">
+            Build your order
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn-ghost" href="#included">See what's included</a>
+        </div>
+      </div>
+
+      <figure class="hero-photo">
+        <span class="ribbon">Turkey <em style="font-style:normal;opacity:.6">&amp;</em> Ham</span>
+        <div class="frame">
+          <img src="assets/img/hero-glazed-ham.jpg"
+               alt="Honey bourbon baked ham, scored and glazed, from the Union 30 kitchen"
+               width="1038" height="936">
+        </div>
+        <figcaption>
+          <span>From our kitchen</span>
+          Honey Bourbon Baked Ham — in every package
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="keydates-band">
+    <div class="wrap keydates">
+      <div>
+        <div class="k">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          Order by
+        </div>
+        <div class="v">Friday, November 20<small>5:00 PM</small></div>
+      </div>
+      <div>
+        <div class="k">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+          Pickup
+        </div>
+        <div class="v">Wednesday, November 25<small>10:00 AM – 2:00 PM</small></div>
+      </div>
+      <div>
+        <div class="k">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Where
+        </div>
+        <div class="v">Union 30<small>705 Olive Street</small></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========================= ORDER: SIZE + MENU + DESSERT ========================= -->
+<section class="order" id="step1">
+  <div class="wrap">
+
+    <!-- ---------- step 1 ---------- -->
+    <div class="step-head">
+      <div class="lhs">
+        <span class="num" aria-hidden="true">1</span>
+        <h2>Choose your size</h2>
+      </div>
+      <p class="hint">One package per order</p>
+    </div>
+
+    <p class="order-early">
+      <strong>Order early.</strong> Every package is made to order, and ordering closes
+      Friday, November 20 at 5 PM.
+    </p>
+
+    <div class="pkg-grid" role="radiogroup" aria-label="Choose your size" id="pkgGroup">
+      <button type="button" class="opt-card" role="radio" aria-checked="false" data-size="Feeds 2" data-price="60" aria-label="Feeds 2 people, $60, $30 each">
+        <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <span class="pkg-lbl">Feeds</span>
+        <span class="pkg-num tnum">2</span>
+        <span class="pkg-lbl">People</span>
+        <span class="pkg-price tnum">$60</span>
+        <span class="pkg-per tnum">$30 each</span>
+      </button>
+      <button type="button" class="opt-card" role="radio" aria-checked="false" data-size="Feeds 4" data-price="110" aria-label="Feeds 4 people, $110, $27.50 each">
+        <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <span class="pkg-lbl">Feeds</span>
+        <span class="pkg-num tnum">4</span>
+        <span class="pkg-lbl">People</span>
+        <span class="pkg-price tnum">$110</span>
+        <span class="pkg-per tnum">$27.50 each</span>
+      </button>
+      <button type="button" class="opt-card" role="radio" aria-checked="false" data-size="Feeds 6" data-price="165" aria-label="Feeds 6 people, $165, $27.50 each">
+        <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <span class="pkg-lbl">Feeds</span>
+        <span class="pkg-num tnum">6</span>
+        <span class="pkg-lbl">People</span>
+        <span class="pkg-price tnum">$165</span>
+        <span class="pkg-per tnum">$27.50 each</span>
+      </button>
+      <button type="button" class="opt-card" role="radio" aria-checked="false" data-size="Feeds 10" data-price="275" aria-label="Feeds 10 people, $275, $27.50 each">
+        <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <span class="pkg-lbl">Feeds</span>
+        <span class="pkg-num tnum">10</span>
+        <span class="pkg-lbl">People</span>
+        <span class="pkg-price tnum">$275</span>
+        <span class="pkg-per tnum">$27.50 each</span>
+      </button>
+    </div>
+
+    <p class="bigger-party">
+      Feeding more than 10? Call <a href="tel:+13142414300">(314) 241-4300</a> and we'll build it for you.
+    </p>
+
+    <!-- ---------- what every package includes ---------- -->
+    <div class="included" id="included">
+      <span class="legend">Every package includes all of this</span>
+
+      <div class="course">Salad</div>
+      <div class="dish-block">
+        <div class="dish">Late Harvest Salad</div>
+        <div class="desc">Autumn greens, roasted apples, sun-dried apricots, crumbled goat cheese, candied pecans · cider cranberry vinaigrette</div>
+      </div>
+
+      <div class="course">Mains — you get both</div>
+      <div class="dish-block">
+        <div class="dish">House Smoked Turkey Breast</div>
+        <div class="desc">Giblet gravy &amp; sage celery dressing</div>
+      </div>
+      <div class="dish-block">
+        <div class="dish">Honey Bourbon Baked Ham</div>
+      </div>
+
+      <div class="course">All seven sides</div>
+      <ul class="sides-cols">
+        <li>Aged cheddar mac and cheese</li>
+        <li>Roasted garlic mashed potatoes</li>
+        <li>Southern green beans</li>
+        <li>Pomegranate glazed carrots</li>
+        <li>Baked yams</li>
+        <li>Cranberry relish</li>
+        <li>Cornbread, honey cinnamon butter</li>
+      </ul>
+    </div>
+
+    <!-- ---------- step 2 ---------- -->
+    <div class="step-head" id="step2" style="margin-top:52px">
+      <div class="lhs">
+        <span class="num" aria-hidden="true">2</span>
+        <h2>Choose your dessert</h2>
+      </div>
+      <p class="hint">Required · the only choice you make</p>
+    </div>
+
+    <div class="pie-row" role="radiogroup" aria-label="Choose your dessert" id="pieGroup">
+      <button type="button" class="pie-btn" role="radio" aria-checked="false" data-dessert="Apple Pie">
+        <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+        Apple Pie
+      </button>
+      <span class="pie-or" aria-hidden="true">or</span>
+      <button type="button" class="pie-btn" role="radio" aria-checked="false" data-dessert="Pumpkin Pie">
+        <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+        Pumpkin Pie
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========================= SUMMARY ========================= -->
+<section id="summary" class="summary reveal" aria-hidden="true">
+  <div class="lattice" style="position:absolute;inset:0;opacity:.06;background-size:56px"></div>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Almost there</div>
+      <h2>Your order</h2>
+      <p>Check it over, then continue to secure checkout.</p>
+    </div>
+
+    <div class="receipt" aria-live="polite">
+      <div class="receipt-top">
+        <img src="assets/logo/union30-round-navy.svg" alt="" width="46" height="44" aria-hidden="true">
+        <div>Thanksgiving To-Go<br><span>Union 30</span></div>
+      </div>
+      <div class="receipt-body">
+        <div class="rrow">
+          <span class="rk">Package</span>
+          <span class="rv" id="sumPackage">—</span>
+        </div>
+        <div class="rrow">
+          <span class="rk">Dessert</span>
+          <span class="rv" id="sumDessert">—</span>
+        </div>
+        <div class="rrow">
+          <span class="rk">Pickup</span>
+          <span class="rv">Wed, Nov 25<small>10:00 AM – 2:00 PM</small></span>
+        </div>
+        <div class="rrow" style="border-bottom:0">
+          <span class="rk">Location</span>
+          <span class="rv">Union 30<small>705 Olive Street</small></span>
+        </div>
+      </div>
+      <div class="rtotal">
+        <span class="rk">Total</span>
+        <span class="rv tnum" id="sumTotal">$0</span>
+      </div>
+      <div class="nofees">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+        No added fees — the price above is what you pay.
+      </div>
+    </div>
+
+    <div class="checkout-zone">
+      <button type="button" class="btn-gold" id="checkout" disabled>
+        <span id="checkoutLabel">Choose a package and dessert</span>
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+      <p class="checkout-note">You'll enter your name, phone and email on the next screen.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= LARGE PARTIES ========================= -->
+<section class="parties">
+  <div class="wrap">
+    <div class="parties-card">
+      <div>
+        <h3>Feeding more than 10?</h3>
+        <p>We'd love to cook for your group. Call us and we'll build a package and quote it for you.</p>
+      </div>
+      <a class="btn-navy" href="tel:+13142414300">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call (314) 241-4300
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= ROOM BAND ========================= -->
+<figure class="roomband">
+  <img src="assets/img/union30-dining-room.jpg"
+       alt="The Union 30 dining room inside Hotel Saint Louis" width="1400" height="1050" loading="lazy">
+  <figcaption>
+    <span class="eyebrow">Pick up here</span>
+    <strong>Union 30,<br>inside Hotel <br class="sm-brk">Saint Louis</strong>
+    705 Olive Street · Downtown St. Louis
+  </figcaption>
+</figure>
+
+<!-- ========================= PICKUP DETAILS ========================= -->
+<section id="pickup">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Before you come</div>
+      <h2>Pickup details</h2>
+    </div>
+    <div class="pickup-grid">
+      <div>
+        <div class="k"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>Order deadline</div>
+        <div class="v">Friday, November 20<small>5:00 PM</small></div>
+      </div>
+      <div>
+        <div class="k"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg></span>Pickup day</div>
+        <div class="v">Wednesday, November 25<small>10:00 AM to 2:00 PM</small></div>
+      </div>
+      <div>
+        <div class="k"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>Where</div>
+        <div class="v">Union 30, inside Hotel Saint Louis<small>705 Olive Street, St. Louis, MO 63101</small></div>
+      </div>
+      <div>
+        <div class="k"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v12H7l-3 3z"/></svg></span>Bring</div>
+        <div class="v">Your order confirmation</div>
+      </div>
+      <div>
+        <div class="k"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>Questions</div>
+        <div class="v"><a href="tel:+13142414300">(314) 241-4300</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= FOOTER ========================= -->
+<footer>
+  <div class="wrap">
+    <div class="fbrand">
+      <img src="assets/logo/union30-round-white.svg" alt="" width="76" height="72" aria-hidden="true">
+      <div>
+        <img src="assets/logo/union30-wordmark-white.svg" alt="Union 30 Restaurant" width="150" height="38" style="width:150px;height:auto">
+        <div class="fsub">at Hotel Saint Louis</div>
+      </div>
+    </div>
+    <div class="fmeta">
+      705 Olive Street, St. Louis, MO 63101<br>
+      <a href="tel:+13142414300">(314) 241-4300</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ==========================================================
+     SQUARE PAYMENT LINKS — THE ONLY THING TO EDIT ON THIS PAGE
+     ----------------------------------------------------------
+     One link per size-and-pie combination. Eight in total.
+     Paste each Square payment link between the quotes.
+
+     Any combination left blank is safe: the checkout button
+     stays disabled and reads "Checkout link not set yet", so
+     no one can ever click through to a dead URL.
+     ========================================================== */
+  /* Built and verified 2026-09-09. Square "Take a payment" links — fixed amount,
+     one-time, NO quantity control. If one ever needs rebuilding, rebuild it as
+     "Take a payment", never "Sell an item" (that reintroduces an uncapped
+     quantity stepper). */
+  var PAYMENT_LINKS = {
+    'Feeds 2|Apple Pie'    : 'https://square.link/u/RYzeAshl',
+    'Feeds 2|Pumpkin Pie'  : 'https://square.link/u/kGxp4Ful',
+    'Feeds 4|Apple Pie'    : 'https://square.link/u/0l3Qmmph',
+    'Feeds 4|Pumpkin Pie'  : 'https://square.link/u/xbhSPuVL',
+    'Feeds 6|Apple Pie'    : 'https://square.link/u/nUQmZ4j2',
+    'Feeds 6|Pumpkin Pie'  : 'https://square.link/u/vewU2MGJ',
+    'Feeds 10|Apple Pie'   : 'https://square.link/u/SmcdLg60',
+    'Feeds 10|Pumpkin Pie' : 'https://square.link/u/86kJepv8'
+  };
+
+  /* ---------------- state ---------------- */
+  var state = { size: null, price: null, dessert: null };
+
+  var pkgGroup   = document.getElementById('pkgGroup');
+  var pieGroup   = document.getElementById('pieGroup');
+  var summary    = document.getElementById('summary');
+  var checkout   = document.getElementById('checkout');
+  var checkoutLb = document.getElementById('checkoutLabel');
+
+  var pkgCards = Array.prototype.slice.call(pkgGroup.querySelectorAll('[role="radio"]'));
+  var pieCards = Array.prototype.slice.call(pieGroup.querySelectorAll('[role="radio"]'));
+
+  /* ---------------- helpers ---------------- */
+  function select(cards, chosen) {
+    cards.forEach(function (c) {
+      c.setAttribute('aria-checked', String(c === chosen));
+      c.tabIndex = (c === chosen) ? 0 : -1;
+    });
+  }
+
+  function show(section) {
+    if (section.classList.contains('on')) return false;
+    section.classList.add('on');
+    section.setAttribute('aria-hidden', 'false');
+    return true;
+  }
+
+  function scrollTo(section) {
+    // let the reveal transition start before scrolling
+    window.setTimeout(function () {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 90);
+  }
+
+  function money(n) {
+    return '$' + Number(n).toLocaleString('en-US');
+  }
+
+  /* ---------------- render ---------------- */
+  function render() {
+    document.getElementById('sumPackage').textContent =
+      state.size ? state.size + ' — ' + money(state.price) : '—';
+    document.getElementById('sumDessert').textContent =
+      state.dessert || '—';
+    document.getElementById('sumTotal').textContent =
+      state.price ? money(state.price) : '$0';
+
+    var link = null;
+    if (state.size && state.dessert) {
+      link = PAYMENT_LINKS[state.size + '|' + state.dessert] || '';
+    }
+
+    if (!state.size || !state.dessert) {
+      checkout.disabled = true;
+      checkoutLb.textContent = 'Choose a package and dessert';
+      checkout.removeAttribute('data-href');
+    } else if (!link) {
+      checkout.disabled = true;
+      checkoutLb.textContent = 'Checkout link not set yet';
+      checkout.removeAttribute('data-href');
+    } else {
+      checkout.disabled = false;
+      checkoutLb.textContent = 'Continue to checkout';
+      checkout.setAttribute('data-href', link);
+    }
+  }
+
+  /* ---------------- revealing the summary ---------------- */
+  // Both steps are on the page from the start, so nothing is revealed until there is
+  // a whole order to show. Either choice can be the one that completes it, so both
+  // handlers call this. It scrolls only the first time — after that, changing a
+  // choice must not yank the customer around the page.
+  function maybeRevealSummary() {
+    if (state.size && state.dessert && show(summary)) scrollTo(summary);
+  }
+
+  /* ---------------- package choice ---------------- */
+  pkgCards.forEach(function (card) {
+    card.addEventListener('click', function () {
+      state.size  = card.dataset.size;
+      state.price = Number(card.dataset.price);
+      select(pkgCards, card);
+      render();
+      maybeRevealSummary();
+    });
+  });
+
+  /* ---------------- dessert choice ---------------- */
+  pieCards.forEach(function (card) {
+    card.addEventListener('click', function () {
+      state.dessert = card.dataset.dessert;
+      select(pieCards, card);
+      render();
+      maybeRevealSummary();
+    });
+  });
+
+  /* ---------------- keyboard: arrow keys within a radiogroup ---------------- */
+  function wireKeys(cards) {
+    cards.forEach(function (card, i) {
+      card.addEventListener('keydown', function (e) {
+        var next = null;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next = cards[(i + 1) % cards.length];
+        if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   next = cards[(i - 1 + cards.length) % cards.length];
+        if (!next) return;
+        e.preventDefault();
+        next.focus();
+        next.click();
+      });
+    });
+    // roving tabindex: the group is one tab stop until something is chosen
+    cards.forEach(function (c, i) { c.tabIndex = i === 0 ? 0 : -1; });
+  }
+  wireKeys(pkgCards);
+  wireKeys(pieCards);
+
+  /* ---------------- checkout ---------------- */
+  checkout.addEventListener('click', function () {
+    var href = checkout.getAttribute('data-href');
+    if (!checkout.disabled && href) window.location.href = href;
+  });
+
+  render();
+})();
+</script>
+
+</body>
+</html>
