@@ -68,6 +68,7 @@ assets/
   img/
     hero-glazed-ham.jpg           hero — the honey bourbon baked ham
     union30-dining-room.jpg       hero background texture + the "pick up here" band
+    og-share-card.jpg             link-preview card (og:image), 1200 × 630 — not shown on the page
   logo/
     union30-wordmark-white.svg    header + footer lockup
     union30-wordmark-navy.svg     spare, for light backgrounds
@@ -163,6 +164,10 @@ and meet contrast. `prefers-reduced-motion` turns off the reveals and hover lift
 `og:url` and `og:image` in the `<head>` are **absolute** URLs on the live domain,
 `https://thanksgiving.hotelsaintlouis.com/`. Social platforms won't resolve a relative `og:image`,
 so a relative path means a link preview with no picture.
+
+`og:image` points at **`assets/img/og-share-card.jpg`** — a dedicated 1200 × 630 share card, sized
+for link previews. It is **deliberately a different file from the hero photo** on the page; don't
+point it back at `hero-glazed-ham.jpg`.
 
 ⚠️ **If the page ever moves to a different address, update both tags.** They won't break visibly —
 the page still loads fine — the previews just quietly lose their image.
