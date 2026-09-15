@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thank you | Thanksgiving To-Go | Union 30 at Hotel Saint Louis</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1E355E">
+<link rel="icon" href="assets/logo/union30-round-navy.svg" type="image/svg+xml">
+
+<!-- Google Analytics + Meta Pixel. IDs and events live in assets/tracking.js -->
+<script>window.TG_PAGE = 'thank-you';</script>
+<script src="assets/tracking.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+<style>
+/* Thank-you page: Square sends buyers here after they pay. Same look as the order page. */
+:root{
+  --navy:#1E355E;
+  --navy-deep:#152744;
+  --navy-ink:#0E1B31;
+  --gold:#DAAB28;
+  --gold-soft:#E8C769;
+  --bronze:#86764E;
+  --bronze-lt:#B5A268;
+  --cream:#FBF6EB;
+  --cream-dk:#EFE8D4;
+  --cream-line:#E2D8C0;
+  --ink:#2D2A26;
+  --warm:#686158;
+  --white:#fff;
+  --shadow-sm:0 1px 2px rgba(30,53,94,.06), 0 2px 8px rgba(30,53,94,.05);
+  --shadow-md:0 4px 12px rgba(30,53,94,.08), 0 12px 32px rgba(30,53,94,.08);
+  --shadow-lg:0 8px 24px rgba(14,27,49,.14), 0 30px 60px rgba(14,27,49,.16);
+  --r:14px;
+  --ease:cubic-bezier(.4,0,.2,1);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  font-size:16.5px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 22px}
+.wrap-narrow{max-width:900px}
+
+/* ---------- shared type ---------- */
+.display{
+  font-family:'Anton',Impact,'Arial Narrow',sans-serif;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:.005em;
+  line-height:1;
+}
+.eyebrow{
+  font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+  font-weight:600;color:var(--gold);
+}
+.tnum{font-variant-numeric:tabular-nums}
+
+/* deco lattice, echoes the coffered ceiling / deco screens in the room */
+.lattice{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23DAAB28' stroke-width='1' opacity='.5'%3E%3Cpath d='M28 2 46 20 46 36 28 54 10 36 10 20Z'/%3E%3Cpath d='M28 14 38 24 38 32 28 42 18 32 18 24Z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+header{
+  background:var(--navy);
+  position:sticky;top:0;z-index:60;
+  border-bottom:1px solid rgba(218,171,40,.28);
+}
+header .wrap{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:18px;padding-top:13px;padding-bottom:13px;
+}
+.brand{display:flex;align-items:center;gap:15px;min-width:0}
+.brand .mark{width:132px;height:33px;flex:none}
+.brand .divider{width:1px;height:31px;background:rgba(218,171,40,.55);flex:none}
+.brand .at{
+  font-size:9.5px;letter-spacing:.19em;text-transform:uppercase;
+  color:var(--gold-soft);font-weight:600;line-height:1.4;white-space:nowrap;
+}
+.brand .at b{display:block;color:#fff;font-size:11px;letter-spacing:.15em;font-weight:600}
+.tel{
+  color:#fff;text-decoration:none;font-weight:500;font-size:15px;
+  white-space:nowrap;display:inline-flex;align-items:center;gap:8px;
+  padding:8px 15px;border:1px solid rgba(255,255,255,.28);border-radius:100px;
+  transition:background .18s var(--ease), border-color .18s var(--ease), color .18s var(--ease);
+}
+.tel:hover{background:var(--gold);border-color:var(--gold);color:var(--navy-ink)}
+.tel svg{width:14px;height:14px;flex:none}
+.tel .lbl{display:inline}
+
+.btn-gold{
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--gold);color:var(--navy-ink);
+  font-weight:600;font-size:15.5px;text-decoration:none;
+  padding:14px 26px;border-radius:100px;border:0;cursor:pointer;
+  box-shadow:0 4px 16px rgba(218,171,40,.34);
+  transition:transform .16s var(--ease), box-shadow .16s var(--ease), background .16s var(--ease);
+}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(218,171,40,.44);background:var(--gold-soft)}
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:9px;
+  color:#fff;text-decoration:none;font-weight:500;font-size:15.5px;
+  padding:14px 24px;border-radius:100px;border:1px solid rgba(255,255,255,.32);
+  transition:background .16s var(--ease),border-color .16s var(--ease);
+}
+.btn-ghost:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.55)}
+
+/* ---------- footer ---------- */
+footer{background:var(--navy-ink);color:rgba(255,255,255,.78);padding:46px 0 40px;font-size:14.5px}
+footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap}
+footer .fbrand{display:flex;align-items:center;gap:18px}
+footer .fbrand > img{width:76px;height:auto;flex:none;opacity:.9}
+footer .fsub{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-top:7px}
+footer .fmeta{text-align:right;line-height:1.8}
+footer a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(218,171,40,.5)}
+footer a:hover{border-bottom-color:var(--gold)}
+
+/* visually hidden */
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+.ty{background-color:var(--navy-deep);color:#fff;position:relative;overflow:hidden;isolation:isolate;padding:64px 0 120px;text-align:center}
+
+.ty-bg{position:absolute;inset:0;z-index:-1;opacity:.16}
+.ty .badge{width:96px;height:auto;margin:0 auto 22px;opacity:.95}
+.ty .eyebrow{color:var(--gold)}
+.ty h1{font-size:clamp(48px,8vw,84px);margin-top:12px;color:#fff}
+.ty h1 .thin{display:block;color:var(--gold);font-size:.5em;letter-spacing:.03em;margin-top:10px}
+.ty .lede{max-width:54ch;margin:18px auto 0;font-weight:300;font-size:17px;color:rgba(255,255,255,.9)}
+.cards{margin-top:-78px;padding-bottom:64px;position:relative;z-index:2}
+.card{background:#fff;border:1px solid var(--cream-line);border-radius:var(--r);box-shadow:var(--shadow-md);padding:30px 34px;margin:0 auto 22px;max-width:640px}
+.card h2{font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;color:var(--navy);font-size:26px;letter-spacing:.02em;margin-bottom:14px}
+.row{display:flex;justify-content:space-between;gap:18px;padding:11px 0;border-top:1px solid var(--cream-dk)}
+.row:first-of-type{border-top:0}
+.row .k{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--bronze);padding-top:3px}
+.row .v{text-align:right;color:var(--navy);font-weight:500}
+.row .v small{display:block;color:var(--warm);font-weight:400;font-size:14px}
+.total .v{font-family:'Anton',sans-serif;font-weight:400;font-size:32px;color:var(--gold);line-height:1.1}
+.note{font-size:13.5px;color:var(--warm);margin-top:6px;text-align:right}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:24px}
+.btn-navy{display:inline-flex;align-items:center;gap:10px;background:var(--navy);color:#fff;font-weight:600;font-size:15.5px;text-decoration:none;padding:14px 26px;border-radius:100px}
+.btn-navy:hover{background:var(--navy-deep)}
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+@media (max-width:680px){
+  body{font-size:16px}
+  .wrap{padding:0 18px}
+  .tel .lbl{display:none}
+  .tel{padding:9px 13px}
+  .card{padding:24px 20px}
+  .row{flex-direction:column;gap:3px}
+  .row .v,.note{text-align:left}
+  .btn-navy,.btn-gold{width:100%;justify-content:center}
+  footer .wrap{flex-direction:column;align-items:flex-start}
+  footer .fmeta{text-align:left}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <img class="mark" src="assets/logo/union30-wordmark-white.svg" alt="Union 30 Restaurant" width="132" height="33">
+      <span class="divider" aria-hidden="true"></span>
+      <span class="at">at<b>Hotel Saint Louis</b></span>
+    </div>
+    <a class="tel" href="tel:+13142414300">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span class="lbl">(314) 241-4300</span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <div class="ty">
+    <div class="ty-bg lattice" aria-hidden="true"></div>
+    <div class="wrap">
+      <img class="badge" src="assets/logo/union30-round-gold.svg" alt="" aria-hidden="true">
+      <div class="eyebrow">Order received</div>
+      <h1 class="display">Thank you<span class="thin">Your Thanksgiving is handled</span></h1>
+      <p class="lede">Your Thanksgiving To-Go order from Union 30 is in. We'll have it ready for you on Wednesday, November 25.</p>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="wrap">
+      <div class="card" id="orderCard" hidden>
+        <h2>Your order</h2>
+        <div class="row"><span class="k">Package</span><span class="v" id="tyPackage"></span></div>
+        <div class="row"><span class="k">Dessert</span><span class="v" id="tyDessert"></span></div>
+        <div class="row total"><span class="k">Total</span><span class="v" id="tyTotal"></span></div>
+        <div class="note">Tax and card processing included.</div>
+      </div>
+
+      <div class="card">
+        <h2>Pickup details</h2>
+        <div class="row"><span class="k">Pickup day</span><span class="v">Wednesday, November 25<small>10:00 AM to 2:00 PM</small></span></div>
+        <div class="row"><span class="k">Where</span><span class="v">Union 30, inside Hotel Saint Louis<small>705 Olive Street, St. Louis, MO 63101</small></span></div>
+        <div class="row"><span class="k">Bring</span><span class="v">Your order confirmation</span></div>
+        <div class="row"><span class="k">Questions</span><span class="v"><a href="tel:+13142414300" style="color:inherit">(314) 241-4300</a></span></div>
+        <div class="actions">
+          <a class="btn-gold" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pick%20up%20Thanksgiving%20To-Go%20at%20Union%2030&dates=20261125T100000/20261125T140000&ctz=America/Chicago&location=Union%2030%2C%20Hotel%20Saint%20Louis%2C%20705%20Olive%20Street%2C%20St.%20Louis%2C%20MO%2063101&details=Pickup%20window%2010%3A00%20AM%20to%202%3A00%20PM.%20Bring%20your%20order%20confirmation.%20Questions%3A%20(314)%20241-4300" target="_blank" rel="noopener">Add pickup to my calendar</a>
+          <a class="btn-navy" href="https://www.hotelsaintlouis.com/">Visit Hotel Saint Louis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fbrand">
+      <img src="assets/logo/union30-round-white.svg" alt="" width="76" height="72" aria-hidden="true">
+      <div>
+        <img src="assets/logo/union30-wordmark-white.svg" alt="Union 30 Restaurant" width="150" height="38" style="width:150px;height:auto">
+        <div class="fsub">at Hotel Saint Louis</div>
+      </div>
+    </div>
+    <div class="fmeta">
+      705 Olive Street, St. Louis, MO 63101<br>
+      <a href="tel:+13142414300">(314) 241-4300</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* Each Square payment link redirects here with its own ?order= value.
+     Prices must match the order page. */
+  var ORDERS = {
+    'feeds-2-apple'   : { size: 'Feeds 2',  pie: 'Apple Pie',   price: 65 },
+    'feeds-2-pumpkin' : { size: 'Feeds 2',  pie: 'Pumpkin Pie', price: 65 },
+    'feeds-4-apple'   : { size: 'Feeds 4',  pie: 'Apple Pie',   price: 120 },
+    'feeds-4-pumpkin' : { size: 'Feeds 4',  pie: 'Pumpkin Pie', price: 120 },
+    'feeds-6-apple'   : { size: 'Feeds 6',  pie: 'Apple Pie',   price: 180 },
+    'feeds-6-pumpkin' : { size: 'Feeds 6',  pie: 'Pumpkin Pie', price: 180 },
+    'feeds-10-apple'  : { size: 'Feeds 10', pie: 'Apple Pie',   price: 300 },
+    'feeds-10-pumpkin': { size: 'Feeds 10', pie: 'Pumpkin Pie', price: 300 }
+  };
+
+  var params = new URLSearchParams(window.location.search);
+  var key = params.get('order');
+  var order = ORDERS[key];
+  var isTest = params.get('test') === '1';
+  if (!order) return;
+
+  document.getElementById('tyPackage').textContent = order.size;
+  document.getElementById('tyDessert').textContent = order.pie;
+  document.getElementById('tyTotal').textContent = '$' + order.price;
+  document.getElementById('orderCard').hidden = false;
+
+  // Count each sale once. A refresh, or coming back to this page within
+  // 30 minutes, does not send a second purchase.
+  var squareId = params.get('orderId') || params.get('transactionId') || params.get('checkoutId') || '';
+  var flag = 'tg26_sent_' + key + (squareId ? '_' + squareId : '');
+  var now = Date.now();
+  try {
+    var last = Number(window.localStorage.getItem(flag) || 0);
+    if (!isTest && last && (squareId || now - last < 30 * 60 * 1000)) return;
+    if (!isTest) window.localStorage.setItem(flag, String(now));
+  } catch (e) { /* storage blocked: still record the sale */ }
+
+  var eventId = squareId || ('tg26-' + key + '-' + now + '-' + Math.random().toString(36).slice(2, 8));
+  if (window.tgTrack) window.tgTrack.purchase(order.size, order.pie, order.price, eventId, isTest);
+})();
+</script>
+
+</body>
+</html>
