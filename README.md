@@ -134,6 +134,9 @@ menu:
 not on this menu. The meal is *sliced* smoked turkey breast and ham. If an image slot needs
 filling and no honest photo exists, leave it empty.
 
+> ⚠️ **NOT A RULE — this was Claude's suggestion, not John's instruction.** John, 2026-09-11: *"I NEVER SAID THAT WAS A RULE."* It was written into the spec on 9/9 as a recommendation and then hardened into project policy that got enforced back at him. **The live Open Graph share card, which John designed, uses a whole-turkey Thanksgiving table and is approved and shipped.** Treat the paragraph above as a note on what the product actually is — sliced breast and ham — not as a constraint on creative.
+
+
 ---
 
 ## What this page deliberately does NOT do
